@@ -39,7 +39,11 @@ https://github.com/reoul/Card-Labyrinthos/blob/61f79e6eb3b8f8e58f20a8379fe1e383e
 
 - 씬을 이동할 때 페이드아웃, 페이드인 효과를 구현했는데 각 구간마다 순서를 지켜야 하는 로직같은 경우 코드가 너무 복잡해짐
   - 해결법 : 코루틴에서 yield return StartCoroutine() 사용하면 해당 코루틴이 다 끝나야 다음 코드로 진행이 되서 FadeOut, FadeIn 전용 코루틴을 따로 만듬
-https://github.com/reoul/Card-Labyrinthos/blob/6c43be8a97cea4eb40dae6e07303c2bc8e007019/Assets/Scripts/FadeManager.cs#L29-L77
+https://github.com/reoul/Old-Project-Code/blob/main/PC%20카드%20로그라이크%20게임/Scripts/FadeManager.cs#L29-L77
+
+https://github.com/reoul/Old-Project-Code/blob/5e16f95fe9da01f219ce1a74815a413da1945a87/PC%20%EC%B9%B4%EB%93%9C%20%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC%20%EA%B2%8C%EC%9E%84/Scripts/FadeManager.cs#L79C6-L83C6
+
+https://github.com/reoul/Old-Project-Code/blob/5e16f95fe9da01f219ce1a74815a413da1945a87/PC%20%EC%B9%B4%EB%93%9C%20%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC%20%EA%B2%8C%EC%9E%84/Scripts/FadeManager.cs#L85C6-L94
 
 ## 코드 부분
 
