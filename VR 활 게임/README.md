@@ -38,7 +38,7 @@
 
 - 진동을 `Update`에서 호출했는데 갑자기 한쪽이 진동 안되고, 일정 이상 진동세기가 올라가면 소리 커지면서 일정한 진동을 유지 못했음
   - 해결법 : 진동을 매 프레임 호출하지 않고 `0.1` 초마다 호출하게 구현함
-https://github.com/reoul/2022_HS_PLAYX4/blob/e1e5c2e19fc87035143630836585b4989ac718c9/Assets/KYB/Scripts/VRController.cs#L102-L118
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/VRController.cs#L102-L118
 
 <br>
 
@@ -55,57 +55,56 @@ https://github.com/reoul/2022_HS_PLAYX4/blob/e1e5c2e19fc87035143630836585b4989ac
 
 - 나무 프리팹에도 `DissolveMat`을 넣었는데 나무 하나에 나무잎이 너무 많아 시간이 오래 걸린다
   - 해결법 : `커스텀에디터`로 작업 툴을 제작
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/ChangeMatTool.cs#L9-L80
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/ChangeMatTool.cs#L9-L80
 
 #### 코드 부분
 
 - `인터페이스`를 통해 확장성 고려
-https://github.com/reoul/2022_HS_PLAYX4/blob/059f0eed13b366c9a12eac755f86bde2d0ecf765/Assets/KYB/Scripts/IHitable.cs#L1-L7
-https://github.com/reoul/2022_HS_PLAYX4/blob/059f0eed13b366c9a12eac755f86bde2d0ecf765/Assets/KYB/Scripts/ArrowManager.cs#L13-L21
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/IHitable.cs#L1-L7
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/ArrowManager.cs#L13-L21
 
 <br>
 
 - `커스텀에디터`를 활용하여 작업 툴 제작
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/ChangeMatTool.cs#L9-L80
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/ChangeMatTool.cs#L9-L80
 
 <br>
 
 - Xml 파싱
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/DataManager.cs#L32-L85
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/DataManager.cs#L32-L85
 
 <br>
 
 - `리플랙션`으로 코드 간결화
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/DataManager.cs#L87-L98
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/DataManager.cs#L87-L98
 
 <br>
 
 - Dissolve 관련 코드
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/DissolveMat.cs#L94-L115
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/DissolveMat.cs#L144-L157
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/DissolveMat.cs#L182-L187
-
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/DissolveMat.cs#L94-L115
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/DissolveMat.cs#L144-L157
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/DissolveMat.cs#L182-L187
 <br>
 
 - 나레이션 관련 코드
-https://github.com/reoul/2022_HS_PLAYX4/blob/4c8d94b80b6dfb5a258fe4775d3176fa05e2bb9d/Assets/KYB/Scripts/NarrationManager.cs#L105-L195
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/NarrationManager.cs#L105-L195
 
 <br>
 
 - 스테이지를 `abstract` 클래스로 선언, 하위 클래스가 재정의하는 방식으로 하여 확장성 고려
-https://github.com/reoul/2022_HS_PLAYX4/blob/40a094440d2033f3126896445c3244ecbc53f19d/Assets/KYB/Scripts/Stage.cs#L40-L59
-https://github.com/reoul/2022_HS_PLAYX4/blob/40a094440d2033f3126896445c3244ecbc53f19d/Assets/KYB/Scripts/Stage1.cs#L5-L29
-https://github.com/reoul/2022_HS_PLAYX4/blob/40a094440d2033f3126896445c3244ecbc53f19d/Assets/KYB/Scripts/Ending.cs#L3-L26
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/Stage.cs#L40-L59
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/Stage1.cs#L5-L29
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/Ending.cs#L3-L26
 
 <br>
 
 - `VRController` 진동 관련 
-https://github.com/reoul/2022_HS_PLAYX4/blob/e1e5c2e19fc87035143630836585b4989ac718c9/Assets/KYB/Scripts/VRController.cs#L102-L118
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/VRController.cs#L102-L118
 
 <br>
 
 - `LineRenderer`를 통해 활 시위와 화살의 궤적을 표현
-https://github.com/reoul/2022_HS_PLAYX4/blob/539db9cbe35c8c4a59f5820b07fad0584df7e648/Assets/KYB/Scripts/BowManager.cs#L47-L95
+https://github.com/reoul/Old-Project-Code/blob/e9d48c12ad5981608699ce4a9c8bc36013d761e9/VR%20%ED%99%9C%20%EA%B2%8C%EC%9E%84/KYB/BowManager.cs#L47-L95
 
 ### GiSeok
 
