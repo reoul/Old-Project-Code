@@ -19,7 +19,7 @@
 
 ## 플레이 영상
 
-- https://youtu.be/nGTS4jPmDTU
+[![https://youtu.be/nGTS4jPmDTU](http://img.youtube.com/vi/nGTS4jPmDTU/0.jpg)](https://youtu.be/nGTS4jPmDTU)
 
 ## 다양한 시도 및 구현
 

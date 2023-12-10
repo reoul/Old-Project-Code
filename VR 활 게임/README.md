@@ -21,7 +21,7 @@
 
 ## 플레이 영상
 
-- https://youtu.be/Z7LiuODtMRI
+[![https://youtu.be/Z7LiuODtMRI](http://img.youtube.com/vi/Z7LiuODtMRI/0.jpg)](https://youtu.be/Z7LiuODtMRI)
 
 ## 프로젝트 담당 정리
 
